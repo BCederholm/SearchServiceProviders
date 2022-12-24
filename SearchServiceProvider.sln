@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchServiceProviderService", "SearchServiceProviderService\SearchServiceProviderService.csproj", "{1BC18CA5-2CEA-410A-B234-1E3AEE76C69E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchServiceProviderService.Test", "SearchServiceProviderService.Test\SearchServiceProviderService.Test.csproj", "{80C699D9-1D6A-44A6-9735-85F95E386700}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1BC18CA5-2CEA-410A-B234-1E3AEE76C69E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BC18CA5-2CEA-410A-B234-1E3AEE76C69E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BC18CA5-2CEA-410A-B234-1E3AEE76C69E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BC18CA5-2CEA-410A-B234-1E3AEE76C69E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80C699D9-1D6A-44A6-9735-85F95E386700}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80C699D9-1D6A-44A6-9735-85F95E386700}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80C699D9-1D6A-44A6-9735-85F95E386700}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80C699D9-1D6A-44A6-9735-85F95E386700}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
