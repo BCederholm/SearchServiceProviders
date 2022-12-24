@@ -31,6 +31,7 @@ public class ServiceProviderServiceApiServiceTest
 
         // Assert
         Assert.AreEqual(expectedServiceProviders, response.Results.Count);
+        Assert.AreEqual(expectedServiceProviders, response.TotalHits);
         Assert.AreEqual(expectedDistanceOnFirstServiceProvider, response.Results[0].Distance);
         Assert.AreEqual(expectedScoreOnFirstServiceProvider, response.Results[0].Score);
     }
