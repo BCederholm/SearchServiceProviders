@@ -24,9 +24,9 @@ public class ServiceProviderServiceApiServiceTest
         // Arrange
         var fakeReadServiceProviders = ServiceProvidersTestData();
         var targetPosition = new Domain.Models.Position() { Latitude = targetLatitude, Longitude = targetLongitude };
+        _infrastructureRepository.Setup(p => p.ReadServiceProviders()).Returns(fakeReadServiceProviders);
 
         // Act
-        _infrastructureRepository.Setup(p => p.ReadServiceProviders()).Returns(fakeReadServiceProviders);
         var response = _sut.SearchServiceProviders(filter, targetPosition);
 
         // Assert
